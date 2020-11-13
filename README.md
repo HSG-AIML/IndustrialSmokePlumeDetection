@@ -78,4 +78,5 @@ conference contribution:
 
     Mommert, M., Sigel, M., Neuhausler, M., Scheibenreif, L., Borth, D.,
     "Characterization of Industrial Smoke Plumes from Remote Sensing Data",
-    Tackling Climate Change with Machine Learning workshop at NeurIPS 2020.
+    Tackling Climate Change with Machine Learning Workshop,
+    NeurIPS 2020.
