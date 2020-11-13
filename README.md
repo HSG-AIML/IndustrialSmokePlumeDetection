@@ -41,7 +41,7 @@ The data set is available on [zenodo](http://doi.org/10.5281/zenodo.4250706).
  routines, a trained model instance
 `segmentation/`: U-Net segmentation model code, training and evaluation
  routines, a trained model instance
- 
+
  
 ## How to Use
 
@@ -56,7 +56,21 @@ validation, and evaluation. For our publication, this has been done in such a
 way that all observations of a single location are always only contained in a 
 single data set. Other strategies are possible and will be left to the user. 
 
+Either model can be trained by invoking:
 
+    python train.py
+    
+with the following optional parameters:
+    
+* `-bs <int>` to define a batch size,
+* `-ep <int>` to define the number of training epochs,
+* `-lr <float>` to define a starting learning rate, and
+* `-mo <float>` to define a momentum value.
+
+The models can be evaluated on the test data set by calling the corresponding
+ `eval.py` script.
+ 
+ 
 ## Acknowledgements
 
 If you use this code for your own project, please cite the following
