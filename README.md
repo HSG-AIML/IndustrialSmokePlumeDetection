@@ -38,9 +38,9 @@ The data set is available on [zenodo](http://doi.org/10.5281/zenodo.4250706).
 ## Content
 
 `classification/`: Resnet-50 classifier code, training and evaluation
- routines, a trained model instance
+ routines
 `segmentation/`: U-Net segmentation model code, training and evaluation
- routines, a trained model instance
+ routines
 
  
 ## How to Use
@@ -53,7 +53,7 @@ data.
    
 It is expected that the data are split into separate data sets for training, 
 validation, and evaluation. For our publication, this has been done in such a
-way that all observations of a single location are always only contained in a 
+way that all observations of a single location are contained in a 
 single data set. Other strategies are possible and will be left to the user. 
 
 Either model can be trained by invoking:
